@@ -1,0 +1,72 @@
+name: passbook_core
+description: A Banking Project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.1.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  passbook:
+    path: D:\Safe Projects\PrimaBackup-24-3-23\PrimaBackup-24-3-23\passbook\passbook
+
+  intl:
+  date_format:
+  dots_indicator:
+  http: any
+  flutter_neumorphic:
+  qr_flutter: ^4.0.0
+  shared_preferences:
+  flutter_bloc:
+  equatable:
+  speech_to_text:
+  flutter_icons:
+  timeago:
+  esys_flutter_share:
+  url_launcher:
+  keyboard_avoider:
+  fluttertoast:
+  cupertino_icons: ^1.0.2
+  package_info: ^0.4.3
+  dio: any
+  path_provider: any
+  permission_handler: ^8.1.2
+  camera:
+  image_picker: any
+  provider: any
+  image:
+  package_info_plus:
+#  ext_storage: any
+
+
+
+
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lang/
+
